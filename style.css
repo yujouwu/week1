@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* CSS start */
+*, *::bafore, *::after {
+    box-sizing: border-box;
+  }
+body{
+    font-family: Castoro;
+    line-height: 1.5;
+}
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.header{
+    font-family: Castoro;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 192px;
+    letter-spacing: 15.36px;
+}
+.header h1{
+    margin-top: 160px;
+}
+.header img{
+    display: block;
+    margin: auto;
+    width: 636px;
+}
+.header h2{
+    text-align: right;
+}
+.bg-gray{
+    background-color: #EFEFEF;
+    padding: 48px 0;
+}
+.introduction p{
+    width: 636px;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: auto;
+}
+.about-me{
+    width: 636px;
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.about-me-title{
+    color: #AE0000;
+    font-size: 40px;
+    border-bottom: 3px solid #AE0000;
+    margin-bottom: 13px;
+}
+.mb-40:not(:last-child){
+    margin-bottom: 40px;
+}
+.about-me-list{
+    font-size: 24px;
+}
+.about-me-list li:not(:last-child){
+    margin-bottom: 16px;
+}
+.about-me-contact-list li:not(:last-child){
+    margin-bottom: 8px;
+}
+
+.about-me-year{
+    color: #949494;
+    font-size: 20px;
+    font-style: italic;
+}
+.about-me-awards-list li{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.footer{
+    background-color:#000;
+    padding: 64px 0;    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon img{
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.icon a:hover{
+    opacity: 70%;
+}
+
+
+
+  
